@@ -1,5 +1,4 @@
 p {
-  color: #0000FF;
   font-size: 12px;
   text-decoration: line-through;
 }
@@ -7,11 +6,26 @@ h1 {
   color: #008000;
   background-color: #888888;
   text-transform: uppercase;
+  margin: 20px;
+  padding: 40px;
+  border-style: dashed;
+  border-width: 5px;
+  border-color: red;
 }
 h2 {
-  background-color: #888888;
   text-decoration: underline;
 }
 body {
   font-family: sans-serif;
+}
+#Intro {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+.Spotlight {
+  background-color: #FEFE22;
+}
+h2, p {
+  color: dark green;
 }
